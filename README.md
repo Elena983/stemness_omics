@@ -1,9 +1,9 @@
-# stemness_omics
+## Stemness for Visium data
 
 Using ML model for different omics
 
-A machine learning one-class logistic regression model to predict stemness for single-cell transcriptomics and spatial omics
-https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-023-09722-6
+A machine learning [one-class logistic regression model to predict stemness for single-cell transcriptomics and spatial omics]
+(https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-023-09722-6)
 
 We need to load the stemness model (gene weight) further to score it against your gene/protein matrix using a Spearman correlation.
 In the end, you scale those correlations between 0 and 1 - what we call the stemness index.
@@ -19,7 +19,7 @@ The results from our paper show robustness when applied to transcriptomics and p
 
 ![5626e171-d519-4fe4-8f2a-1dc7f6e55047](https://github.com/Elena983/stemness_omics/assets/68946912/eb04f52a-f76d-45d7-8d20-ce9aa2186b0e)
 
-##COMET data
+## COMET data
 
 spe.Rds object for patient1 and patient3 based on [steinbock](https://github.com/Elena983/steinbock) analysis
 
@@ -29,7 +29,7 @@ It's also true that the presence and activity of T cells, particularly helper T 
 
 If few T cells are present in tumors with high stemness scores, this may indicate a compromised immune response and potentially suggest the need for immunotherapeutic approaches to boost T cell activity and enhance anti-tumor immunity.
 
-#Calculating the stemness score for the multiplex proteomics
+# Calculating the stemness score for the multiplex proteomics
 
 ![image](https://github.com/Elena983/stemness_omics/assets/68946912/3c6a7832-3d7e-4956-968e-69aae131fee1)
 
