@@ -2,8 +2,7 @@
 
 Using ML model for different omics
 
-A machine learning [one-class logistic regression model to predict stemness for single-cell transcriptomics and spatial omics]
-(https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-023-09722-6)
+A machine learning [one-class logistic regression model to predict stemness for single-cell transcriptomics and spatial omics](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-023-09722-6)
 
 We need to load the stemness model (gene weight) further to score it against your gene/protein matrix using a Spearman correlation.
 In the end, you scale those correlations between 0 and 1 - what we call the stemness index.
