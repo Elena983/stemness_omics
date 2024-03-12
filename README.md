@@ -22,17 +22,26 @@ The results from our paper show robustness when applied to transcriptomics and p
 
 spe.Rds object for patient1 and patient3 based on [steinbock](https://github.com/Elena983/steinbock) analysis
 
-This model highlights the importance of understanding where more aggressive, stem-like cells are situated in the tumor and the TME that surrounds them.  This method also addresses the problems of proper cell annotation such that cells, regardless of their annotated cell identity, can be appropriately identified based on their level of stemness.
+This model highlights the importance of understanding where more aggressive, stem-like cells are situated in the tumor and the TME surrounding them.  This method also addresses the problems of proper cell annotation such that cells, regardless of their annotated cell identity, can be appropriately identified based on their level of stemness.
 
 It's also true that the presence and activity of T cells, particularly helper T cells (CD4+) and cytotoxic T cells (CD8+), play a crucial role in the body's immune response against cancer cells. However, in cancers with high stemness scores, there tends to be a suppressed immune response, which can result in fewer T cells infiltrating the tumor microenvironment.  
 
-If few T cells are present in tumors with high stemness scores, this may indicate a compromised immune response and potentially suggest the need for immunotherapeutic approaches to boost T cell activity and enhance anti-tumor immunity.
+If few T cells are present in tumors with high stemness scores, this indicates a compromised immune response and suggests the need for immunotherapeutic approaches to boost T cell activity and enhance anti-tumor immunity.
 
 # Calculating the stemness score for the multiplex proteomics
 
-![image](https://github.com/Elena983/stemness_omics/assets/68946912/3c6a7832-3d7e-4956-968e-69aae131fee1)
+patient1
 
-![image](https://github.com/Elena983/stemness_omics/assets/68946912/a61442e4-d22e-467b-b0f5-d2c955417d06)
+![image](https://github.com/Elena983/stemness_omics/assets/68946912/9514add4-92be-4f1f-ab20-ec71c65b2e8d)
+
+![image](https://github.com/Elena983/stemness_omics/assets/68946912/f06ecc2e-d3b6-458d-aa56-18ddeb18260c)
+
+patient3
+
+![image](https://github.com/Elena983/stemness_omics/assets/68946912/9fabd012-f97e-4b30-a397-355bafd3f11d)
+
+![image](https://github.com/Elena983/stemness_omics/assets/68946912/8404d23e-580b-4090-b3f2-69edcd3e62c7)
+
 
 When many T cells in both samples exhibit a high stemness score, it typically occurs in the early stages of immune responses, such as during acute infections or following vaccination. These T cells possess characteristics of stem-like cells, including self-renewal capacity, multipotency, and functional persistence. They are often found among naïve and some memory T cell subsets, indicating their ability to maintain long-term immunity and respond robustly to antigenic stimulation.
 
